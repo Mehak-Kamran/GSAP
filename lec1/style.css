@@ -20,3 +20,20 @@
     margin-left: 50px;
 }
 
+#nav{
+    background-color: black;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#heading1,#heading{
+    color:aliceblue
+}
+
+#list{
+    display:flex;
+    gap:40px;
+    margin-right: 20px;
+}
+
