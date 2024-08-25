@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box1 {
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    margin-top: 50px  ;
+    margin-left: 50px;
+}
+
+#box2 {
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+    margin-top: 50px  ;
+    margin-left: 50px;
+}
+
