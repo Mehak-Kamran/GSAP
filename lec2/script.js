@@ -17,7 +17,11 @@ gsap.from("#page2 #box2",{
     borderRadius:100,
     scrollTrigger:{
         trigger: "#page2 #box2",
-        scroller:"body"
+        scroller:"body",
+       
+        // start: "top 60%",
+        // end:"top 10%",
+        scrub:2
      }
 
     
@@ -32,8 +36,24 @@ gsap.from("#page3 #box3",{
     borderRadius:100,
     scrollTrigger:{
         trigger: "#page3 #box3",
-        scroller:"body"
+        scroller:"body",
+        
+        // start: "top 60%",
+        // end:"top 10%",
+        scrub:5
      }
     
     
+})
+
+gsap.to("#page4 h1",{
+    transform:"translateX(-170%)",
+    scrollTrigger:{
+        trigger:"#page4",
+        scroller:"body",
+        start:" top 0%",
+        end:"top -100%",
+        scrub:2,
+        pin:true
+    }
 })
